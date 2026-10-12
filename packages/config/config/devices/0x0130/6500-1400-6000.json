@@ -85,6 +85,27 @@
 			"unsigned": true
 		},
 		{
+			"#": "5",
+			"label": "Digital Port Mode",
+			"valueSize": 1,
+			"defaultValue": 1,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "Disable",
+					"value": 0
+				},
+				{
+					"label": "P1 smart meter",
+					"value": 1
+				},
+				{
+					"label": "Laser sensor",
+					"value": 2
+				}
+			]
+		},
+		{
 			"#": "255",
 			"label": "Restart Device",
 			"valueSize": 1,
